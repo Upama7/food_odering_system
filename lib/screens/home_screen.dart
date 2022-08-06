@@ -17,27 +17,27 @@ class HomeScreen extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             MyMenu(
-              title: "Academic",
+              title: "Beakfast",
               icon: Icons.account_balance,
               warna: Colors.brown,
             ),
             MyMenu(
-              title: "food",
+              title: "Fast Foods",
               icon: Icons.account_balance,
               warna: Colors.brown,
             ),
             MyMenu(
-              title: "food",
+              title: "Drinks",
               icon: Icons.account_balance,
               warna: Colors.brown,
             ),
             MyMenu(
-              title: "food",
+              title: "Dal Bhat",
               icon: Icons.account_balance,
               warna: Colors.brown,
             ),
             MyMenu(
-              title: "food",
+              title: "Masu",
               icon: Icons.account_balance,
               warna: Colors.brown,
             ),
