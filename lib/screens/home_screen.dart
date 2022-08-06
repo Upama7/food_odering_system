@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_odering_system/screens/breakfast.dart';
 
 class HomeScreen extends StatelessWidget {
   final String username;
@@ -12,35 +13,138 @@ class HomeScreen extends StatelessWidget {
       ),
       backgroundColor: Colors.orange[100],
       body: Container(
-        padding: EdgeInsets.all(30.0),
+        padding: EdgeInsets.all(20.0),
         child: GridView.count(
+          mainAxisSpacing: 20,
+          crossAxisSpacing: 8,
           crossAxisCount: 2,
           children: <Widget>[
-            MyMenu(
-              title: "Beakfast",
-              icon: Icons.account_balance,
-              warna: Colors.brown,
-            ),
-            MyMenu(
-              title: "Fast Foods",
-              icon: Icons.account_balance,
-              warna: Colors.brown,
-            ),
-            MyMenu(
-              title: "Drinks",
-              icon: Icons.account_balance,
-              warna: Colors.brown,
-            ),
-            MyMenu(
-              title: "Dal Bhat",
-              icon: Icons.account_balance,
-              warna: Colors.brown,
-            ),
-            MyMenu(
-              title: "Masu",
-              icon: Icons.account_balance,
-              warna: Colors.brown,
-            ),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.breakfast_dining,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Breakfast",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.lunch_dining,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Lunch",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.dinner_dining,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Dinner",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.bakery_dining,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Bakery",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.icecream,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Desert",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  onPrimary: Colors.brown,
+                  primary: Colors.white,
+                ),
+                onPressed: () {},
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.local_drink,
+                      color: Colors.brown,
+                      size: 75.0,
+                    ),
+                    Text(
+                      "Drinks",
+                      style: TextStyle(fontSize: 17, color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                )),
           ],
         ),
       ),
@@ -68,7 +172,7 @@ class MyMenu extends StatelessWidget {
             children: <Widget>[
               Icon(
                 icon,
-                size: 70.0,
+                size: 80.0,
                 color: warna,
               ),
               Text(title, style: TextStyle(fontSize: 17.0))
