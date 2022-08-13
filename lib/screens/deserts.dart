@@ -1,18 +1,18 @@
 import "package:flutter/material.dart";
 
-class Drinks extends StatefulWidget {
-  const Drinks({Key? key}) : super(key: key);
+class Deserts extends StatefulWidget {
+  const Deserts({Key? key}) : super(key: key);
 
   @override
-  State<Drinks> createState() => _DrinksState();
+  State<Deserts> createState() => _DesertsState();
 }
 
-class _DrinksState extends State<Drinks> {
+class _DesertsState extends State<Deserts> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Drinks'),
+          title: Text('Breakfast'),
           backgroundColor: Colors.orange,
         ),
         body: Container(

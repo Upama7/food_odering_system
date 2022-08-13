@@ -11,8 +11,8 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  var username;
-  var password;
+  late String username;
+  late String password;
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
       color: Colors.blue,
       child: MaterialButton(
         minWidth: MediaQuery.of(context).size.width,
-        padding: EdgeInsets.all(12),
+        padding: EdgeInsets.all(20),
         onPressed: () {
           if (username == "admin" && password == "pass1234") {
             Navigator.push(context,
