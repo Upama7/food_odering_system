@@ -25,7 +25,8 @@ class _LoginScreenState extends State<LoginScreen> {
       style: myStyle,
       decoration: InputDecoration(
         contentPadding: EdgeInsets.all(10),
-        hintText: "username",
+        hintText: "Username",
+        hintStyle: TextStyle(color: Colors.grey.shade800, fontSize: 20),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
       ),
     );
@@ -41,6 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
       decoration: InputDecoration(
         contentPadding: EdgeInsets.all(10),
         hintText: "Password",
+        hintStyle: TextStyle(color: Colors.grey.shade800, fontSize: 20),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
       ),
     );
@@ -71,21 +73,34 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       body: Center(
         child: Container(
-          color: Colors.white,
+          color: Colors.grey.shade300,
           child: Padding(
             padding: EdgeInsets.all(20),
             child: ListView(
               children: [
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  // crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
+                    SizedBox(
+                      height: 25,
+                    ),
                     Icon(
-                      Icons.supervised_user_circle,
+                      Icons.food_bank_rounded,
                       size: 150,
+                      color: Colors.purple.shade300,
+                    ),
+                    Container(
+                      child: Text(
+                        "Order Your Food",
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                     SizedBox(
-                      height: 150,
+                      height: 100,
                     ),
                     usenameField,
                     SizedBox(
@@ -93,7 +108,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     passwordField,
                     SizedBox(
-                      height: 10,
+                      height: 50,
                     ),
                     myLoginButton,
                     SizedBox(
