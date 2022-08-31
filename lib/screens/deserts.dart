@@ -12,7 +12,7 @@ class _DesertsState extends State<Deserts> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Breakfast'),
+          title: Text('Desert'),
           backgroundColor: Colors.orange,
         ),
         body: Container(
@@ -24,14 +24,14 @@ class _DesertsState extends State<Deserts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Ice-cream",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 150",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -39,7 +39,7 @@ class _DesertsState extends State<Deserts> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -50,14 +50,14 @@ class _DesertsState extends State<Deserts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Cake",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 60",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -65,7 +65,7 @@ class _DesertsState extends State<Deserts> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -76,14 +76,14 @@ class _DesertsState extends State<Deserts> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Sweets",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 120",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -91,59 +91,7 @@ class _DesertsState extends State<Deserts> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
-                      onPressed: () {},
-                    ),
-                  ]),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
-                    ),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    Text(
-                      "Nrs 24",
-                      style: TextStyle(fontSize: 20),
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        onPrimary: Colors.white,
-                        primary: Colors.green,
-                      ),
-                      child: Text("order Now"),
-                      onPressed: () {},
-                    ),
-                  ]),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
-                    ),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    Text(
-                      "Nrs 24",
-                      style: TextStyle(fontSize: 20),
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        onPrimary: Colors.white,
-                        primary: Colors.green,
-                      ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),

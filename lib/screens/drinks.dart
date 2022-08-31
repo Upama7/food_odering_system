@@ -24,14 +24,14 @@ class _DrinksState extends State<Drinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Coke",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 80",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -39,7 +39,7 @@ class _DrinksState extends State<Drinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -50,14 +50,14 @@ class _DrinksState extends State<Drinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Fanta",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 80",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -65,7 +65,7 @@ class _DrinksState extends State<Drinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -76,14 +76,14 @@ class _DrinksState extends State<Drinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Sprite",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 80",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -91,7 +91,7 @@ class _DrinksState extends State<Drinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -102,14 +102,14 @@ class _DrinksState extends State<Drinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Lassi",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 80",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -117,7 +117,7 @@ class _DrinksState extends State<Drinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -128,14 +128,14 @@ class _DrinksState extends State<Drinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Black Tea",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 50",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -143,7 +143,33 @@ class _DrinksState extends State<Drinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
+                      onPressed: () {},
+                    ),
+                  ]),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Milk Tea",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    SizedBox(
+                      width: 50,
+                    ),
+                    Text(
+                      "Nrs 70",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        onPrimary: Colors.white,
+                        primary: Colors.green,
+                      ),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),

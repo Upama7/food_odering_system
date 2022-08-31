@@ -12,7 +12,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Cold Drinks'),
+          title: Text('Lunch'),
           backgroundColor: Colors.orange,
         ),
         body: Container(
@@ -24,14 +24,14 @@ class _ColdDrinksState extends State<ColdDrinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Daal Bhat Tarkari",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 350",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -39,7 +39,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -50,14 +50,14 @@ class _ColdDrinksState extends State<ColdDrinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Paratha Aalu",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 115",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -65,7 +65,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -76,14 +76,14 @@ class _ColdDrinksState extends State<ColdDrinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Biryani",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 300",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -91,7 +91,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -102,14 +102,14 @@ class _ColdDrinksState extends State<ColdDrinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Chicken Roast",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 500",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -117,7 +117,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -128,14 +128,14 @@ class _ColdDrinksState extends State<ColdDrinks> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Puri Tarkari",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 150",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -143,7 +143,7 @@ class _ColdDrinksState extends State<ColdDrinks> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),

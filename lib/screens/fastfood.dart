@@ -24,14 +24,14 @@ class _FastfoodState extends State<Fastfood> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Momo",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 150",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -39,7 +39,7 @@ class _FastfoodState extends State<Fastfood> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -50,14 +50,14 @@ class _FastfoodState extends State<Fastfood> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Chowmein",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 120",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -65,7 +65,7 @@ class _FastfoodState extends State<Fastfood> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -76,14 +76,14 @@ class _FastfoodState extends State<Fastfood> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Burger",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 180",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -91,7 +91,7 @@ class _FastfoodState extends State<Fastfood> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -102,14 +102,14 @@ class _FastfoodState extends State<Fastfood> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Pizza",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 200",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -117,33 +117,7 @@ class _FastfoodState extends State<Fastfood> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
-                      onPressed: () {},
-                    ),
-                  ]),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
-                    ),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    Text(
-                      "Nrs 24",
-                      style: TextStyle(fontSize: 20),
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        onPrimary: Colors.white,
-                        primary: Colors.green,
-                      ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),

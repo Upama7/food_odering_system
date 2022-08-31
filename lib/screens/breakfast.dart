@@ -25,13 +25,13 @@ class _BreakfastState extends State<Breakfast> {
                   children: [
                     Text(
                       "Bread",
-                      style: TextStyle(fontSize: 30),
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 50",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -39,7 +39,7 @@ class _BreakfastState extends State<Breakfast> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -50,14 +50,14 @@ class _BreakfastState extends State<Breakfast> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Omelette",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 30",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -65,7 +65,7 @@ class _BreakfastState extends State<Breakfast> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -76,14 +76,14 @@ class _BreakfastState extends State<Breakfast> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Pancake",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 100",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -91,7 +91,7 @@ class _BreakfastState extends State<Breakfast> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -102,14 +102,14 @@ class _BreakfastState extends State<Breakfast> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Waffle",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 120",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -117,7 +117,7 @@ class _BreakfastState extends State<Breakfast> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
@@ -128,14 +128,14 @@ class _BreakfastState extends State<Breakfast> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Bread",
-                      style: TextStyle(fontSize: 30),
+                      "Milk",
+                      style: TextStyle(fontSize: 20),
                     ),
                     SizedBox(
                       width: 50,
                     ),
                     Text(
-                      "Nrs 24",
+                      "Nrs 50",
                       style: TextStyle(fontSize: 20),
                     ),
                     ElevatedButton(
@@ -143,7 +143,33 @@ class _BreakfastState extends State<Breakfast> {
                         onPrimary: Colors.white,
                         primary: Colors.green,
                       ),
-                      child: Text("order Now"),
+                      child: Text("Order Now"),
+                      onPressed: () {},
+                    ),
+                  ]),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Coffee",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    SizedBox(
+                      width: 50,
+                    ),
+                    Text(
+                      "Nrs 30",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        onPrimary: Colors.white,
+                        primary: Colors.green,
+                      ),
+                      child: Text("Order Now"),
                       onPressed: () {},
                     ),
                   ]),
